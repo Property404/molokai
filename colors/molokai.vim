@@ -72,7 +72,7 @@ hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
 
 hi PreCondit       guifg=#A6E22E               gui=bold
-hi PreProc         guifg=#A6E22E
+hi PreProc         guifg=#A6E22E cterm=bold
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
 hi Search          guifg=#000000 guibg=#FFE792
@@ -174,10 +174,10 @@ if &t_Co > 255
 
    hi keyword         ctermfg=161               cterm=bold
    hi Label           ctermfg=229               cterm=none
-   hi Macro           ctermfg=193
+   hi Macro           ctermfg=118 cterm=bold
    hi SpecialKey      ctermfg=81
 
-   hi MatchParen      ctermfg=233  ctermbg=208 cterm=bold
+   hi MatchParen      ctermfg=0  cterm=bold
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi Operator        ctermfg=161
